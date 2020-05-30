@@ -81,7 +81,23 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    
+                    <!-- Laravel -->
+
+                    <!-- Test code added ! -->
+                    
+                    Laravel {{ date ('Y-m-d H:i:s') }}
+
+                    @if (1==1)
+                        <br/>Yes ! <br/>
+                        @foreach(['One', 'Two', 'Three'] as $number)
+                            {{$number}}<br/>
+                        @endforeach
+
+                    @else
+                        <br/>No !
+                    @endif
+
                 </div>
 
                 <div class="links">
